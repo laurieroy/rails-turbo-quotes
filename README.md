@@ -1,24 +1,29 @@
-# README
+# Quotes - WIP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This quotes app was built following the [hotrails]() [tutorial](https://www.hotrails.dev/turbo-rails). 
 
-Things you may want to cover:
+Tech stack:
 
-* Ruby version
+* Ruby version 3.1.2
+* Rails version 7.0.4
+* Simple Form 5.1
+* Database: postgresql 
+* UI: CSS using [BEM methodology](https://en.bem.info/methodology/)
+* Testing: rspec and capybara
 
-* System dependencies
+## To setup the databases, seed
+ `bin/setup`
 
-* Configuration
+## To run in the dev environment
+ `bin/dev`
 
-* Database creation
+## To run the test suite:
+ `bin/rails test`
 
-* Database initialization
+ `bin/rails test:system`
 
-* How to run the test suite
+<!-- * Services (job queues, cache servers, search engines, etc.) -->
 
-* Services (job queues, cache servers, search engines, etc.)
+<!-- * Deployment instructions -->
 
-* Deployment instructions
 
-* ...
