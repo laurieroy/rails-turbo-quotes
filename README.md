@@ -6,6 +6,7 @@ Tech stack:
 
 * Ruby version 3.1.2
 * Rails version 7.0.4
+* Auth: Devise TODO: data turbo false
 * Simple Form 5.1
 * Database: postgresql 
 * UI: CSS using [BEM methodology](https://en.bem.info/methodology/)
