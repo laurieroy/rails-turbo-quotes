@@ -15,7 +15,7 @@ Tech stack:
 For real-time updates (websockets), be sure to have [redis](https://redis.io/) installed and set up in cable.yml
 
 ## To setup the databases, seed
- `bin/setup`
+ `bin/prepare`
 
 ## To run in the dev environment
  `bin/dev`
