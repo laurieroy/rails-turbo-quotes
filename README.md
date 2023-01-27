@@ -1,6 +1,6 @@
 # Quotes - WIP
 
-This quotes app was built following the [hotrails]() [tutorial](https://www.hotrails.dev/turbo-rails). 
+This quotes app was built following the Mar 2022 verson of the [hotrails](https://twitter.com/alexandre_ruban) [turbo tutorial](https://www.hotrails.dev/turbo-rails). 
 
 Tech stack:
 
@@ -10,6 +10,8 @@ Tech stack:
 * Database: postgresql 
 * UI: CSS using [BEM methodology](https://en.bem.info/methodology/)
 * Testing: rspec and capybara
+
+For real-time updates (websockets), be sure to have [redis](https://redis.io/) installed and set up in cable.yml
 
 ## To setup the databases, seed
  `bin/setup`
