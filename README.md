@@ -2,6 +2,8 @@
 
 This quotes app was built following the Mar 2022 verson of the [hotrails](https://twitter.com/alexandre_ruban) [turbo tutorial](https://www.hotrails.dev/turbo-rails). 
 
+There is quote model, user model, line_item_date model
+
 Tech stack:
 
 * Ruby version 3.1.2
@@ -15,7 +17,7 @@ Tech stack:
 For real-time updates (websockets), be sure to have [redis](https://redis.io/) installed and set up in cable.yml
 
 ## To setup the databases, seed
- `bin/prepare`
+ `bin/rails db:prepare`
 
 ## To run in the dev environment
  `bin/dev`
