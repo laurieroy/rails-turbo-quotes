@@ -4,6 +4,14 @@ This quotes app was built following the Mar 2022 verson of the [hotrails](https:
 
 There is quote model, user model, line_item_date model
 
+A user creates a quote, which can have many dates.
+
+Quotes are scoped by company, so that a user with a different company does not see their quotes. 
+
+Dates are listed with the oldest on top, while quotes are displayed with newest on top.
+
+Quotes and dates use turbo frames but have html backup, if not enabled.
+
 Tech stack:
 
 * Ruby version 3.1.2
