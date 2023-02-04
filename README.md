@@ -31,10 +31,12 @@ For real-time updates (websockets), be sure to have [redis](https://redis.io/) i
  `bin/dev`
 
 ## To run the test suite:
- `bin/rails test`
+ unit tests: `bin/rails test`
 
- `bin/rails test:system`
+ system tests: `bin/rails test:system`
 
+
+all tests: `bin/rails test: all`
 <!-- * Services (job queues, cache servers, search engines, etc.) -->
 
 <!-- * Deployment instructions -->
