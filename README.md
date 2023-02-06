@@ -12,6 +12,8 @@ Dates are listed with the oldest on top, while quotes are displayed with newest 
 
 Quotes and dates use turbo frames but have html backup, if not enabled.
 
+New to me: delegate :quote, to: :line_item_date
+
 Tech stack:
 
 * Ruby version 3.1.2
